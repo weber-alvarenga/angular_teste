@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 113.0.5672.93 (Windows 10)" package="" timestamp="2023-05-13T21:58:14" id="0" hostname="HAL-9001" tests="10" errors="0" failures="0" time="0.053">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/113.0.5672.93 Safari/537.36"/>
+  </properties>
+  <testcase name="LikeWidgetComponent Deve criar ID automaticamente quando iniciado (ngOnInit) quando (@Input id) é nulo)." time="0.036" classname="Chrome_Headless_113_0_5672_93_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Não deve criar novo ID na inicialização (ngOnInit) quando (@Input id) já existe." time="0.004" classname="Chrome_Headless_113_0_5672_93_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like deve disparar (@Output liked) quando chamado" time="0.003" classname="Chrome_Headless_113_0_5672_93_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like deve disparar emitir quando chamado" time="0.003" classname="Chrome_Headless_113_0_5672_93_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like deve disparar (@Output liked) quando chamado" time="0.004" classname="Chrome_Headless_113_0_5672_93_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should create" time="0.002" classname="Chrome_Headless_113_0_5672_93_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="UniqueIdService #gerarIdComPrefixo não deve gerar id duplicado quando chamdo com mesmo prefixo" time="0.001" classname="Chrome_Headless_113_0_5672_93_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getQtdUniqueIds deve retornar o número de ids gerados quando chamado" time="0" classname="Chrome_Headless_113_0_5672_93_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #gerarIdComPrefixo deve lançar exceção quando chamado com prefixo inválido" time="0" classname="Chrome_Headless_113_0_5672_93_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #gerarIdComPrefixo deve gerar id quando chamado com prefixo válido" time="0" classname="Chrome_Headless_113_0_5672_93_(Windows_10).UniqueIdService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

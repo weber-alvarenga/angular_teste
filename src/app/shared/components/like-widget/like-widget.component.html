@@ -1,0 +1,21 @@
+<div class="like_widget-container"
+  (click)="like()"
+  (keyup.enter)="like()">
+
+  <!-- keyup acima, role e tabindex abaixo são acessibilidade -->
+  <fa-icon
+    role="button"
+    tabindex="0"
+    [attr.aria-describedby]="id"
+    size="1x"
+    [icon]="fonts.faThumbsUp"></fa-icon>
+
+  <span
+    class="like-counter"
+    [attr.id]="id"
+    [attr.aria-label]="qtdLikes + ': pessoas gostaram'"
+    aria-live="true"
+    aria-atomic="true">
+    {{ qtdLikes }}
+  </span>
+</div>
